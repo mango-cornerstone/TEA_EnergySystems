@@ -171,6 +171,7 @@ class PYTEA:
         self.operation_margin = self.interest_payments + self.profit + self.corporate_tax
 
 
+"""
 x = PYTEA()
 x.get_RnD(100)
 x.get_SGA(10, 20, 5)
@@ -198,3 +199,4 @@ z.get_operation_margin(0,0,0)
 
 plot_TEA_by_scenarios( [x,y,z], ['west','mid','east'], 'scenarios' ,'USDollar/Ton'  )
 plot_TEA_by_items( [x,y,z], ['west','mid','east'], 'items' ,'USDollar/Ton'  )
+"""
